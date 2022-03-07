@@ -46,11 +46,22 @@
             src="./assets/icons/button-next.png"
             alt="Next"
           />
-          <img
-            class="player-btn"
-            src="./assets/icons/button-vol-medio.png"
-            alt="Volume Medio"
-          />
+          <div class="audio-vol">
+            <input
+              type="range"
+              min="0"
+              max="100"
+              step="1"
+              class="slider"
+              value="80"
+              id="RangVolume"
+            />
+            <img
+              class="player-btn"
+              src="./assets/icons/button-vol-medio.png"
+              alt="Volume Medio"
+            />
+          </div>
         </div>
       </div>
     </div>

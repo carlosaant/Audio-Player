@@ -116,3 +116,38 @@ h1 {
 .player-btn:active {
   background-color: rgba(0, 0, 0, 0.2);
 }
+
+.audio-vol:hover input {
+  opacity: 100;
+  width: 100px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+
+  background: linear-gradient(90deg, #1e343f15, #1e343f);
+  border-radius: 1px;
+  height: 1vw;
+  max-height: 6px;
+  transition: 0.5s;
+  opacity: 0;
+  width: 0;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 2vw;
+  max-width: 15px;
+  height: 2vw;
+  max-height: 15px;
+  border-radius: 50px;
+  background: #1e343f;
+  cursor: pointer;
+}
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04aa6d;
+  cursor: pointer;
+}
