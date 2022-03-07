@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Player - AntcMinga</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>Audio Play's</h1>
+    <div class="container-principal">
+      <div class="container-player">
+        <img
+          class="capa-album"
+          src="./assets/images/damfm-capa.jpg"
+          alt="capa Album"
+        />
+        <audio id="audio-player" controls>
+          <source
+            src="./assets/audio/The Weeknd - Is There Someone Else.mp3"
+            type="audio/mpeg"
+          />
+        </audio>
+        <div class="audio-controls">
+          <div class="player-div-time">
+            <span id="time-audio">00:00</span>
+            <div class="player-timeline">
+              <div class="player-timeline-control"></div>
+            </div>
+          </div>
+          <img
+            id="play-ctrl"
+            class="player-btn"
+            src="./assets/icons/button-play.png"
+            alt="Play"
+          />
+          <img
+            id="stop-ctrl"
+            class="player-btn"
+            src="./assets/icons/button-stop.png"
+            alt="Stop"
+          />
+          <img
+            class="player-btn"
+            src="./assets/icons/button-next.png"
+            alt="Next"
+          />
+          <img
+            class="player-btn"
+            src="./assets/icons/button-vol-medio.png"
+            alt="Volume Medio"
+          />
+        </div>
+      </div>
+    </div>
+    <footer></footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

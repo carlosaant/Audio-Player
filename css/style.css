@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ad5389; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Merienda", cursive;
+  font-weight: bold;
+
+  font-size: 60 px;
+  background: -webkit-linear-gradient(rgb(89, 0, 253), rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container-principal {
+  width: 500px;
+  height: 550px;
+  margin: auto;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  background-color: #f4eff8;
+}
+
+.container-player {
+  width: 90%;
+  /* margin: 10px; */
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 1px;
+  text-align: center;
+
+  background-color: #ad5389;
+
+  box-shadow: 0 10px 16px 0 #808080;
+}
+
+.capa-album {
+  max-width: 200px;
+  border: 1px solid #fff;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.audio-controls {
+  width: 300px;
+  background-color: #f4eff8;
+  margin: auto;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.player-div-time {
+  max-width: 200px;
+  /* background-color: red; */
+  margin: auto;
+}
+
+#time-audio {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.player-timeline {
+  /* float: left; */
+  display: inline-block;
+  vertical-align: middle;
+  /* margin: auto; */
+  max-width: 150px;
+  width: 200px;
+  height: 5px;
+  /* margin-top: 13px; */
+  background: #555;
+}
+
+.player-timeline-control {
+  height: 5px;
+  background: #999;
+}
+
+.player-btn {
+  margin-top: 5px;
+  width: 50px;
+  border-radius: 20%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.player-btn:hover {
+  background-color: rgba(115, 4, 206, 0.2);
+}
+
+.player-btn:active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
